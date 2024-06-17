@@ -1,0 +1,14 @@
+.section-about {
+  background-color: orange;
+}
+
+.about-box {
+  align-items: center;
+  padding: 2.5rem 1rem;
+  gap: 3rem;
+  margin: 0 auto;
+}
+
+.about-img {
+  max-height: 30rem;
+}

@@ -4,35 +4,71 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Juunoo</title>
+    <!-- CSS Links -->
+    <link rel="stylesheet" href="css/about-section.css" />
+    <link rel="stylesheet" href="css/hero-section.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!--  -->
   </head>
   <body>
-    <header>
-      <a href="#" class="logo-link">
-        <img src="assets/logo.png" alt="Logo" class="logo" />
-      </a>
-      <nav class="main-nav">
-        <ul class="main-nav-list">
-          <li class="main-nav-list-item">
-            <a href="#" class="main-nav-link">Home</a>
-          </li>
-          <li class="main-nav-list-item">
-            <a href="#" class="main-nav-link"
-              >Solutions
-              <span
-                ><img
-                  src="assets/arrow-down.svg"
-                  alt="down-arrow"
-                  class="arrow-down" /></span
-            ></a>
-          </li>
-          <li class="main-nav-list-item">
-            <a href="#" class="main-nav-link">Resources</a>
-          </li>
-          <li class="main-nav-list-item">
-            <a href="#" class="main-nav-link">Contact Us</a>
-          </li>
-        </ul>
-      </nav>
+    <header class="main-header">
+      <div class="container grid grid--2--cols">
+        <a href="#" class="logo-link">
+          <img src="assets/logo.png" alt="Logo" class="logo-img" />
+        </a>
+        <nav class="main-nav">
+          <ul class="main-nav-list grid grid--4--cols">
+            <li class="main-nav-list-item">
+              <a href="#" class="main-nav-link">Home</a>
+            </li>
+            <li class="main-nav-list-item">
+              <a href="#" class="main-nav-link"
+                >Solutions
+                <span
+                  ><img
+                    src="assets/arrow-down.svg"
+                    alt="down-arrow"
+                    class="arrow-down" /></span
+              ></a>
+            </li>
+            <li class="main-nav-list-item">
+              <a href="#" class="main-nav-link">Resources</a>
+            </li>
+            <li class="main-nav-list-item">
+              <a href="#" class="main-nav-link">Contact Us</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
+    <!--  -->
+    <main class="main-section">
+      <!-- About Section -->
+      <section class="section-about section-padding">
+        <div class="about-box container grid grid--2--cols">
+          <img
+            src="assets/about-us.png"
+            alt="Two man working on laptop"
+            class="about-img"
+          />
+          <div class="about-text-box">
+            <p class="about-sm-text">About Us</p>
+            <h3 class="section-heading">
+              Solutions to boost ROI and growth for your enterprise
+            </h3>
+            <p class="section-sm-text">
+              We meticulously orchestrate a harmonious synergy between
+              advertisers and publishers for optimal results.
+            </p>
+            <a href="#" class="find-out-link">
+              Find out more
+              <img src="assets/arrow-right.svg" alt="" class="arrow-img" />
+            </a>
+          </div>
+        </div>
+      </section>
+      <!--  -->
+    </main>
   </body>
 </html>

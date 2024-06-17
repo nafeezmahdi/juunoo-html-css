@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+/*
+--01 TYPOGRAPHY SYSTEM
+
+-FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+-FONT WEIGHTS (px)
+Default:
+Medium:
+Semi-bold: 
+Bold: 
+-LINE HEIGHTS (px)
+ Default: 
+Small: 
+Medium: 
+Paragraph Default: 
+
+--Letter SPACING 
+
+
+
+-SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+
+-- 02 COLORS 
+
+- Primary : 
+- Tints : 
+- Shades :
+- Accents :
+- Greys : 
+
+
+-- 03 SHADOWS 
+
+
+-- 04 BORDER-RADIUS 
+Default : 
+Medium : 
+
+
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Thicccboi";
+  src: url("path/to/fonts/Thicccboi-Regular.ttf") format("truetype");
+  /* Add other formats if available and needed */
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "Thicccboi", sans-serif;
+}
+
+.container {
+  max-width: 96rem;
+  margin: 0 auto;
+}
+
+.section-padding {
+  padding: 5rem 0;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid--2--cols {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid--4--cols {
+  grid-template-columns: repeat(4, 1fr);
+}

@@ -1,0 +1,43 @@
+.main-header {
+  background-color: rgb(255 255 255);
+  padding: 1rem;
+}
+
+.logo-link:link,
+.logo-link:visited {
+  text-decoration: none;
+}
+
+.logo-link:hover,
+.logo-link:active {
+  /* transform: scale(1.4); */
+}
+
+.logo-img {
+  height: 4rem;
+}
+
+.main-nav {
+}
+
+.main-nav-list {
+  list-style: none;
+}
+
+.main-nav-list-item {
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  text-decoration: none;
+  font-size: 1.125rem;
+  line-height: 1.75;
+  font-weight: 700;
+  color: inherit;
+  padding: 0.5rem 1rem;
+  /* width: 100%; */
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+}
