@@ -4,9 +4,9 @@
 
 .about-box {
   align-items: center;
-  padding: 2.5rem 1rem;
   gap: 3rem;
-  margin: 0 auto;
+  /* padding: 2.5rem 1rem; */
+  /* margin: 0 auto; */
 }
 
 .about-img {

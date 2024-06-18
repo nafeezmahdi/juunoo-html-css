@@ -1,0 +1,40 @@
+.section-feature {
+  padding: 5rem 0;
+  border-color: inherit;
+}
+
+.feature-box {
+  gap: 5rem;
+  justify-content: center;
+}
+
+.feature-text-box {
+  gap: 1.5rem;
+}
+
+.feature-heading-text {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.feature-sm-text {
+  color: rgb(100 102 112) !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.feature-items-box {
+  gap: 1.5rem;
+}
+
+.feature-item-box {
+}
+
+.fib-img {
+}
+
+.fi-heading-text {
+}
+
+.fi-sm-text {
+}
