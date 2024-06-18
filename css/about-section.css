@@ -1,5 +1,5 @@
 .section-about {
-  background-color: orange;
+  background-color: rgb(249, 248, 243);
 }
 
 .about-box {
@@ -11,4 +11,62 @@
 
 .about-img {
   max-height: 30rem;
+  width: auto;
+  object-fit: cover;
+  border-radius: 11px;
+  margin: 0 auto;
+  aspect-ratio: 1/1;
+}
+
+.about-text-box {
+  gap: 2rem;
+  place-items: start start;
+  justify-content: space-between;
+}
+
+.about-m-text {
+  display: inline-block;
+  color: rgb(0, 0, 0);
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  background-color: rgb(246, 235, 212);
+}
+
+.about-heading-text {
+  text-align: left !important;
+}
+
+.about-sm-text {
+  text-align: left !important;
+}
+
+.find-out-link:link,
+.find-out-link:visited {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding: 1rem 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: rgb(255 255 255);
+  background-color: rgb(139 67 42);
+  border-radius: 6px;
+  text-decoration: inherit;
+  transition: all 0.4s;
+}
+
+.find-out-link:hover,
+.find-out-link:active {
+  background-color: rgba(160, 74, 47, 0.8);
+}
+
+arrow-img {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.arrow-img:hover {
+  transform: scale(1, 1);
 }
