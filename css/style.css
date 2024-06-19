@@ -62,6 +62,15 @@ Medium :
   border-color: #c3c3c3;
 }
 
+body {
+  margin: 0;
+  line-height: inherit;
+}
+
+.main-section {
+  width: 100%;
+}
+
 h2 {
   color: rgb(0, 2, 4);
   font-size: 3.625rem !important;
@@ -94,7 +103,8 @@ body {
 
 .section-padding-margin {
   padding: 2.5rem 1rem;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 .margin-left-right {
   margin-left: auto;
