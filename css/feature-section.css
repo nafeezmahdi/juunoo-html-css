@@ -28,13 +28,31 @@
 }
 
 .feature-item-box {
+  max-width: 28rem;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  align-items: center;
+  justify-items: center;
 }
 
 .fib-img {
+  width: 9rem;
+  height: 9rem;
+  margin-bottom: 0.5rem;
 }
 
 .fi-heading-text {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  color: rgb(31 37 59);
+  text-align: center;
+  max-width: 18ch;
 }
 
 .fi-sm-text {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-align: center;
+  max-width: 28ch;
+  color: rgb(100 102 112);
 }
